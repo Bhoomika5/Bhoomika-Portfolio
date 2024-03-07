@@ -673,6 +673,30 @@ ul.follow-social li {
     display: inline-block;
 }
 /*Media Starts*/
+@media (max-width: 1080px){
+  .banner_left h3 {
+    font-size: 80px;
+    line-height: 80px;
+}
+}
+@media (max-width: 768px){
+.banner_left h3  {
+    font-size: 65px;
+    line-height: 65px;
+}
+}
+@media (max-width: 568px){
+    .banner_left h3{
+    font-size: 45px;
+    line-height: 45px;
+}
+}
+@media (max-width: 415px){
+    .banner_left h3 {
+    font-size: 42px;
+    line-height: 40px;
+}
+}
 /*Media Footer Starts*/
 @media screen and (max-width: 767px) {
     .sub-footer-right{
