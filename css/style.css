@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 #wrapper{
-    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../img/banner1.jpg);
+    background-image: linear-gradient(to right, rgba(6, 31, 36, 0.9), rgba(6, 31, 36, 0.9)), url(../img/banner1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover ;
@@ -17,7 +19,7 @@
     margin: 0 auto ;
 }
 #breadcumb-wrapper{
-    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../img/banner1.jpg);
+    background-image: linear-gradient(to right, rgba(6, 31, 36, 0.9), rgba(6, 31, 36, 0.9)), url(../img/banner1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover ;
@@ -48,6 +50,7 @@
     font-weight: 600;
 }
 .green_btn{
+    display: inline-block;
     background-color: #007e6a;
     color: #fff;
     padding: 13px 35px;
@@ -64,6 +67,7 @@
     border-color: #025b4d;
 }
 .tran_btn{
+    display: inline-block;
     color: #fff;
     border: 1px solid #dadada;
     background: rgba(255, 255, 255, 0.15);
@@ -81,6 +85,7 @@
     border: 1px solid #fff;
 }
 .light_green_btn{
+    display: inline-block;
     color: #ffffff;
     background-color: #00c16e;
     border-color: #00c16e;
@@ -156,6 +161,7 @@
 .banner_left p{
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 3rem;
 }
 .banner_right img{
     width: 100%;
@@ -246,6 +252,7 @@ ul.follow-social li {
     border-radius: 6px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
     margin-bottom: 30px;
+    max-height: 280px;
 }
 .service-box i{
     margin-bottom: 1.5rem;
@@ -665,3 +672,14 @@ ul.follow-social li {
 .error-form button{
     display: inline-block;
 }
+/*Media Starts*/
+/*Media Footer Starts*/
+@media screen and (max-width: 767px) {
+    .sub-footer-right{
+        text-align: center;
+    }
+    .sub-footer-left{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+  }

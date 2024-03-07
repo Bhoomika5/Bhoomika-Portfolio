@@ -8,3 +8,11 @@ window.addEventListener("scroll",()=>{
         navbar.classList.remove("navbar-scroll")
     }
 })
+window.addEventListener("load",()=>{
+    if(document.documentElement.scrollTop>50){
+        navbar.classList.add("navbar-scroll")
+    }
+    else{
+        navbar.classList.remove("navbar-scroll")
+    }
+})
