@@ -615,7 +615,7 @@ ul.follow-social li {
 }
 /*Error Banner Starts*/
 #error-banner{
-    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../img/banner1.jpg);
+    background-image: linear-gradient(to right, rgba(6, 31, 36, 0.9), rgba(6, 31, 36, 0.9)), url(../img/banner1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -679,6 +679,10 @@ ul.follow-social li {
     font-size: 80px;
     line-height: 80px;
 }
+.error-banner-box h3{
+    font-size: 80px;
+    line-height: 80px;
+}
 }
 @media (max-width:991px){
     .banner_left{
@@ -690,15 +694,33 @@ ul.follow-social li {
     font-size: 65px;
     line-height: 65px;
 }
+.error-banner-box  h3  {
+    font-size: 65px;
+    line-height: 65px;
+}
 }
 @media (max-width: 568px){
     .banner_left h3{
     font-size: 45px;
     line-height: 45px;
 }
+.error-banner-box h3{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+}
+@media (max-width: 564px){
+    .error-form input{
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 415px){
     .banner_left h3 {
+    font-size: 42px;
+    line-height: 40px;
+}
+.error-banner-box h3 {
     font-size: 42px;
     line-height: 40px;
 }
