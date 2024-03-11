@@ -454,6 +454,7 @@ ul.follow-social li {
 }
 .footer-links ul{
     list-style: none;
+    padding: 0!important;
 }
 .footer-links li{
     display: inline-block;
@@ -679,6 +680,11 @@ ul.follow-social li {
     line-height: 80px;
 }
 }
+@media (max-width:991px){
+    .banner_left{
+        padding-top: 3rem;
+    }
+  }
 @media (max-width: 768px){
 .banner_left h3  {
     font-size: 65px;
