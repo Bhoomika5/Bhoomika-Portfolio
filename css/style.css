@@ -342,6 +342,9 @@ ul.follow-social li {
     margin: 0 auto;
     padding-top: 3rem;
 }
+.information-box img{
+    width: 100%;
+}
 .information-left{
     margin-top: 80px;
 }
